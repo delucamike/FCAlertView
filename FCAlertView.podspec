@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.ios.deployment_target = '9.0'
   s.source       = { :git => "https://github.com/delucamike/FCAlertView-Swift.git", :tag => s.version }
-  s.source_files  = "FCAlertView/*.{swift}"
+  s.source_files  = "FCAlertView/FCAlertView/*.{swift}"
   #s.framework  = "QuartzCore"
   s.requires_arc = true
 end
